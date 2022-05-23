@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller=".MostrarPedidosPendientesController">
+    <children>
+      <TableView layoutX="14.0" layoutY="43.0" prefHeight="343.0" prefWidth="574.0">
+        <columns>
+          <TableColumn prefWidth="120.0" text="Numero de Pedido" />
+          <TableColumn prefWidth="60.0" text="Cantidad" />
+            <TableColumn prefWidth="61.0" text="Fecha" />
+            <TableColumn prefWidth="99.0" text="dni Comprador" />
+            <TableColumn prefWidth="90.0" text="Id Articulo" />
+            <TableColumn prefWidth="90.0" text="Estado" />
+        </columns>
+      </TableView>
+      <Text layoutX="224.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pedidos Pendientes de Envio" />
+   </children>
+</AnchorPane>

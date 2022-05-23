@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="208.0" prefWidth="309.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller=".AnadirClienteController">
+    <children>
+      <Text layoutX="14.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" />
+      <TextField layoutX="151.0" layoutY="36.0" />
+      <Text layoutX="13.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dni" />
+      <TextField layoutX="151.0" layoutY="66.0" />
+      <Text layoutX="13.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo" />
+      <TextField layoutX="151.0" layoutY="95.0" />
+      <Text layoutX="14.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dirección" />
+      <TextField layoutX="151.0" layoutY="124.0" />
+      <Button cancelButton="true" layoutX="164.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Cancelar" />
+      <Button layoutX="2.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Añadir" />
+      <CheckBox layoutX="15.0" layoutY="149.0" mnemonicParsing="false" text="Premium" />
+   </children>
+</AnchorPane>
